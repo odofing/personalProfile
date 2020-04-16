@@ -1,0 +1,59 @@
+:root {
+    --color: whitesmoke;
+    --background-color: black;
+}
+
+header, #footerpage{
+    background-color: var(--background-color);
+    color: var(--color);
+    text-align: center;
+    padding: 10px;
+}
+
+#footerpage {
+    margin-top: 250px;
+    padding: 5px;
+    }
+.conatiner {
+   display: flex;
+   justify-content: center;
+  
+}
+
+.Btn {
+    background-color: var(--background-color);
+    color: var(--color);
+    position: relative;
+    cursor: pointer;
+    padding: 15px 25px;
+    box-shadow: inset;
+    margin-right: 20px;
+    
+    
+}
+
+table{
+    font-size:20px;
+    margin: 30px;
+   
+}
+
+
+table, th, td {
+    border: 1px solid var(--background-color);
+}
+
+#form-collection,
+h2 {
+   
+    padding: 10px; 
+    text-align: center;
+   
+   
+}
+
+#profileheading, #summary-section{
+    margin: 30px;
+}
+
+
